@@ -21,7 +21,7 @@ await connectDB()
 await connectCloudinary()
 
 // Allow multiple origin 
-const allowOrigins=['http://localhost:5173']
+const allowOrigins=['http://localhost:5173','https://fresh-basket-webdev-b2l6.vercel.app']
 
 
 app.post('/stripe',express.raw({type:'application/json'}),stripeWebhooks)
