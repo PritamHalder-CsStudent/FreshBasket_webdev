@@ -1,0 +1,11 @@
+<svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1"></stop>
+      <stop offset="100%" style="stop-color:#8BC34A;stop-opacity:1"></stop>
+    </linearGradient>
+  </defs>
+  <text x="10" y="60" font-family="Verdana, sans-serif" font-size="40" font-weight="bold" fill="url(#greenGradient)">
+    FreshBasket
+  </text>
+</svg>
